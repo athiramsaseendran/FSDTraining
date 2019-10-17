@@ -1,0 +1,58 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>AddCustomerServlet</servlet-name>
+  	<display-name>AddCustomerServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.example.controller.AddCustomerServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ListCustomerServlet</servlet-name>
+  	<display-name>ListCustomerServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.example.view.ListCustomerServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SuccessServlet</servlet-name>
+  	<display-name>SuccessServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.example.view.SuccessServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ErrorServlet</servlet-name>
+  	<display-name>ErrorServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.example.view.ErrorServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddCustomersServlet</servlet-name>
+  	<display-name>AddCustomersServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.example.view.AddCustomersServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AddCustomerServlet</servlet-name>
+  	<url-pattern>/add_league.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ListCustomerServlet</servlet-name>
+  	<url-pattern>/list_customer_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SuccessServlet</servlet-name>
+  	<url-pattern>/success_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ErrorServlet</servlet-name>
+  	<url-pattern>/error_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddCustomersServlet</servlet-name>
+  	<url-pattern>/AddCustomersServlet</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
